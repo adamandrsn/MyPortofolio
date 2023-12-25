@@ -92,7 +92,18 @@
   }
 }
 
+footer {
+  margin-top: auto;
+  /* Footer akan tetap di bagian bawah */
+  width: 100%;
+}
+
 body {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -12621,7 +12632,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .text-white-75 {
