@@ -12849,3 +12849,25 @@ header.masthead .h1 {
 #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+#internship-section {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-magang-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.card-internship-section {
+  background-color: rgba(255, 255, 255, 0.2); /* Warna putih dengan 80% opasitas */
+  border: none; /* Hapus border jika diperlukan */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan efek bayangan */
+  border-radius: 20px; /* Beri sedikit sudut membulat */
+}
+.card-internship-section-body {
+  background-color: rgba(255, 255, 255, 0.2); /* Latar belakang transparan untuk isi card */
+  border-radius: 10px; /* Sesuaikan dengan card */
+  padding: 1.5rem; /* Ruang di dalam card */
+}
